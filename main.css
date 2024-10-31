@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #2C3E50;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+header, footer {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+  z-index: 9;
+}
+
+header {
+  top: 0;
+}
+
+header span {
+  font-size: 16px; /* Reduced from 18px */
+}
+
+footer {
+  bottom: 0;
+}
+
+footer h1 {
+  font-size: 34px; /* Reduced from 36px */
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav button {
+  all: unset;
+  cursor: pointer;
+}
+
+nav button#next-slide {
+  margin-right: 30px;
+}
+
+nav span {
+  width: 120px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  width: fit-content;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 8vw; /* Reduced padding */
+}
+
+h1 {
+  font-size: 68px; /* Reduced from 72px */
+}
+
+h2 {
+  font-size: 44px; /* Reduced from 48px */
+}
+
+li {
+  font-size: 34px; /* Reduced from 36px */
+  margin: 16px 0;  /* Reduced from 18px */
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2 {
+  margin: 24px 0; /* Reduced from 28px */
+}
